@@ -1,0 +1,39 @@
+.with-react-tabs {
+  background-color: rgb(41, 39, 39);
+  width: 100%;
+}
+.tabHeader-right {
+  display: flex;
+}
+.sortby {
+  font-weight: 100;
+  font-size: 16px;
+  font-family: Arial;
+  color: grey;
+  padding-top: 10px;
+  position: absolute;
+  right: 15%;
+}
+.releaseDate {
+  font-weight: 100;
+  font-size: 16px;
+  padding-top: 10px;
+
+  font-family: Arial;
+  color: honeydew;
+  margin-left: 3%;
+  position: absolute;
+  right: 3%;
+}
+.moviesCount {
+  /* font-family: Montserrat; */
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+/* .tab-content{
+      display: flex;
+      flex-direction: row;
+  } */

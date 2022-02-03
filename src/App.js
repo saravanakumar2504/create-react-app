@@ -1,18 +1,16 @@
-import { Counter } from "./components/Counter";
-import { ToggleSwitch } from "./components/ToggleSwitch";
-import "./App.css";
-
+import ErrorBoundary from "./components/ErrorBoundary";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import TabHolder from "./components/TabHolder/TabHolder";
 function App() {
   return (
-    <div className="App">
-      <Counter />
-      <div className="toggleSwitchContainer">
-        Toggle switch using functional component: 
-        <ToggleSwitch label="Notifications" />
-        <ToggleSwitch label="Subscribe" />
-      </div>
+    <div>
+      <Header />
+      <ErrorBoundary>
+      <TabHolder/> 
+      </ErrorBoundary>
+      <Footer/>
     </div>
   );
 }
-
 export default App;
