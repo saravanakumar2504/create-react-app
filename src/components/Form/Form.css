@@ -1,0 +1,18 @@
+input {
+  padding: 4px 10px;
+  border: 0;
+  height: 30px;
+  font-size: 16px;
+}
+.search {
+  width: 85%;
+  margin-top: 3%;
+  margin-left: 3%;
+  border: 2px solid grey;
+}
+.submit {
+  width: 70px;
+  height: 42px;
+  background-color: #1c87c9;
+  color: #ffffff;
+}

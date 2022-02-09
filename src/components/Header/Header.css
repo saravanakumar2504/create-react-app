@@ -1,0 +1,50 @@
+.header {
+  background-image: url("/public/Home.svg");
+  width: 100%;
+  height: 24rem;
+}
+span {
+  color: #f65261;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+}
+.roulette {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 20px;
+}
+.addMovie {
+  color: #f65261;
+  height: 50px;
+  width: 15%;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+  background: rgba(96, 96, 96, 0.68);
+  border-radius: 4px;
+}
+.addMovie:hover {
+  zoom: 105%;
+  border: 2px solid grey;
+}
+.findTitle {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 49px;
+  margin-left: 15%;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.top-header {
+  display: flex;
+  margin-left: 8%;
+  margin-right: 8%;
+  justify-content: space-between;
+  padding-top: 2%;
+}
